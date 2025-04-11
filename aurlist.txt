@@ -7,7 +7,6 @@ google-chrome
 hyprshot
 networkmanager-dmenu-git
 slides
-unigine-heaven
 visual-studio-code-bin
 wofi-wifi-menu-git
 xdg-desktop-portal-hyprland-git

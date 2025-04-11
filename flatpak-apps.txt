@@ -1,0 +1,11 @@
+app.zen_browser.zen
+com.discordapp.Discord
+com.github.libresprite.LibreSprite
+com.google.Chrome
+com.obsproject.Studio
+com.visualstudio.code
+io.github.MakovWait.Godots
+md.obsidian.Obsidian
+net.nokyan.Resources
+org.gimp.GIMP
+org.kde.krita
