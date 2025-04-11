@@ -13,6 +13,9 @@ yay -S --needed - < aurlist.txt
 ## Screen shot
 
 ![Demo screenshot](./Demo.png)
+![Another demo](./another.png)
+
+<!--  ok now vite code with vite running -->
 
 ## 🚀 Components
 
