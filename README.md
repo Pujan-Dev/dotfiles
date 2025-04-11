@@ -2,6 +2,14 @@
 
 Welcome to my custom **Hyprland** configuration for Ubuntu! This setup is designed for performance, aesthetics, and productivity.
 
+## install all the AUR and pacman packages
+
+```bash
+sudo pacman -S --needed - < pkglist.txt
+yay -S --needed - < aurlist.txt
+
+```
+
 ## 🚀 Components
 
 This configuration includes:
@@ -39,17 +47,21 @@ Each directory contains the relevant configuration files for its respective comp
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Install Required Packages
+
 Ensure you have the necessary packages installed:
+
 ```bash
 sudo apt update && sudo apt install alacritty hyprland neovim waybar wofi git xdg-desktop-portal-hyprland
 ```
 
 ### 2️⃣ Clone the Configurations
+
 ```bash
 git clone https://github.com/your-repo/hyprland-config.git ~/.config/
 ```
 
 ### 3️⃣ Symlink the Configurations
+
 ```bash
 ln -s ~/.config/hyprland-config/alacritty ~/.config/alacritty
 ln -s ~/.config/hyprland-config/hypr ~/.config/hypr
@@ -59,7 +71,9 @@ ln -s ~/.config/hyprland-config/wofi ~/.config/wofi
 ```
 
 ### 4️⃣ Start Hyprland
+
 To start Hyprland, log out and select Hyprland as your session in the login manager, or run:
+
 ```bash
 Hyprland
 ```
@@ -69,20 +83,27 @@ Hyprland
 ## 🎨 Customization
 
 ### 🌟 Themes & Appearance
+
 Modify **Waybar** styles:
+
 ```css
 ~/.config/waybar/style.css
 ```
+
 Customize **Alacritty** colors:
+
 ```yaml
 ~/.config/alacritty/alacritty.yml
 ```
+
 Adjust **Hyprland** animations and layouts:
+
 ```conf
 ~/.config/hypr/hyprland.conf
 ```
 
 ### ⌨️ Keybindings
+
 - **Terminal** → `Super + Return` (Opens Alacritty)
 - **Exit** → `Super + M`
 - **Launcher** → `Super + D` (Opens Wofi)
@@ -93,6 +114,7 @@ Adjust **Hyprland** animations and layouts:
 ---
 
 ## 📜 Notes
+
 - This setup is optimized for **Wayland** and may not work in X11.
 - Ensure `xdg-desktop-portal-hyprland` is installed for better app support:
   ```bash
@@ -101,4 +123,3 @@ Adjust **Hyprland** animations and layouts:
 - Adjust configurations according to your hardware and preferences.
 
 Enjoy your **Hyprland** experience on Ubuntu! 🚀
-

@@ -1,0 +1,13 @@
+android-sdk
+android-sdk-platform-tools
+bluetooth-autoconnect
+brave-bin
+catppuccin-gtk-theme-mocha
+google-chrome
+hyprshot
+networkmanager-dmenu-git
+slides
+unigine-heaven
+visual-studio-code-bin
+wofi-wifi-menu-git
+xdg-desktop-portal-hyprland-git
