@@ -10,6 +10,10 @@ yay -S --needed - < aurlist.txt
 
 ```
 
+## Screen shot
+
+![Demo screenshot](./Demo.png)
+
 ## 🚀 Components
 
 This configuration includes:
